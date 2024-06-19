@@ -5,7 +5,7 @@ This repository contains a beginner-friendly landing page project created using 
 Author-Adwaita Shinde
 <br>
 <br>
-Features : List the key features or components :
+Features : List of key features :
 <br>
            1.  Sections (Header, Features, Call to Action, Footer)
 <br>
