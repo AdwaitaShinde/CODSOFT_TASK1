@@ -1,0 +1,308 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    background-color:#640D6B;
+    color:white;
+    display: flex;
+}
+
+.nav-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:300px;
+    height: 60px;
+    margin-left: 100px;
+    border-color: white;
+    border-width: 20px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    margin-left: -1px;
+    width:300px;
+    height: 60px;
+
+}
+
+.nav-number-address{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+}
+
+.request{
+    height: 30px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.navbar-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    
+
+#landing-img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    width: 200px;
+}
+
+#landing-img.i{
+    margin-right: 20px;
+}
+
+
+}
+
+.home-item {
+    display: flex;
+    width: 600px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+ul {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+li {
+    margin-left: 20px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black; 
+    display: block; 
+}
+
+a.buy-now {
+    background-color: #640D6B;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+
+.nav-item:hover {
+    background-color: #575757;
+}
+
+#seach-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 40px;
+    background-color: white;
+}
+
+
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: black;
+    text-align: center;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-2{
+    width: 800px;
+    border-left: solid 2px #640D6B;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.hero-buttons .btn {
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.features {
+    background-color: #640D6B;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.features .feature-box {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.ABOUT{
+    margin-top: 30px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-text{
+    text-align:left;
+    width: 50%;
+    height: 50%;
+}
+
+.about-img{
+    height: 250px;
+    width: 380px;
+    text-align: center;
+    background-image: url("about-img.png");
+    background-size: contain;
+}
+
+.btn{
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.service-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service-img1{
+    height: 200px;
+    width: 400px;
+    background-image: url("service1.jpg");
+    background-size: cover;
+}
+
+.service-img2{
+    height: 200px;
+    width: 400px;
+    background-image: url("service2.jpg");
+    background-size: cover;
+}
+
+.service-img3{
+    height: 200px;
+    width: 400px;
+    background-image: url("service3.jpg");
+    background-size: contain;
+}
+
+.service-img4{
+    height: 200px;
+    width: 400px;
+    background-image: url("service4.jpg");
+    background-size: cover;
+}
+
+.service-img5{
+    height: 200px;
+    width: 400px;
+    background-image: url("service5.jpg");
+    background-size: contain;
+}
+
+.service-img6{
+    height: 200px;
+    width: 400px;
+    background-image: url("service6.jpg");
+    background-size: contain;
+}
+
+.service-text{
+    text-align: center;
+    height: 50px;
+    border-radius: 2px;
+    border: 1px solid black;
+    background-color:#640D6B;
+    color: white;
+    margin-bottom: 40px;
+}
+
+#service-heading{
+    padding-left: 40px;
+}
+
+
+
+footer{
+    margin-top: 15px;
+}
+
+
+.logo{
+    background-image: url("amazon_logo.jpg");
+    background-size: cover;
+    height:50px;
+    width: 100px;
+    
+}
+
+.foot-panel2{
+    background-color: #0f1111;
+    color:white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.pages{
+    padding-top: 25px;
+}
+
+.copyright{
+    padding-top: 0.7rem;
+    
+}
